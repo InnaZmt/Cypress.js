@@ -17,16 +17,16 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/baseUrl.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/baseUrl.png)
 
 2. Применение хуков beforeEach и afterEach
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/hooks.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/beforEach.afterEach.png)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/user_data.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/authorization.png)
 
 4. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/locators.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/locators.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -36,7 +36,7 @@
 npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/Cypress_cli.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/report.pn)
 
 
 ## Локальный запуск через Cypress UI
@@ -49,7 +49,7 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/InnaZmt/new_cypress/main/static/Cypress_UI.png)
+![image](https://raw.githubusercontent.com/InnaZmt/Cypress.js/refs/heads/main/new_cypress-main/luck.png)
 
 
 ## Автор
